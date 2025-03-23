@@ -3,12 +3,11 @@ import { Button } from "@mui/material";
 import Latte from '../assets/Latte.webp';
 import Capucino from '../assets/Capucino.jpg'
 import Americano1 from '../assets/Americano.jpg'
-
 const Shop = () => {
   return (
     <section className="container mx-auto px-4 py-10 bg-[#121517] overflow-y-hidden">
             <div className="text-center mb-10">
-              <h1 className="text-5xl font-bold text-[#C9A14A]">D’s Coffee Shop</h1>
+              <h1 className="text-5xl font-bold text-[#C9A14A]">D’s Coffee</h1>
               <p className="text-white text-2xl mt-2">Buy the best coffee and accessories in our store!</p>
             </div>
       
@@ -47,8 +46,7 @@ const Shop = () => {
                 
                 <Button variant="contained" color="success" className=" w-[186px] h-[54.069766998291016px]" onClick={() => window.open("https://www.starbucks.com/menu/product/407/hot")} sx={{borderRadius:"59.72px", bgcolor: "#C9A14A", mt: "30px"}}>Купить Продукт</Button>
               </div>
-              
-            </div>
+    </div>
     </section>
   );
 };

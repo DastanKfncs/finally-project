@@ -5,7 +5,7 @@ const Footer = () => {
   return (  
     <footer className="bg-[#0B0C0D] text-white p-4 text-center overflow-x-hidden h-[333px] overflow-y-hidden ">  
     <div className='flex  py-[46px] text-[#BBB3B36E]'>
-      <h1 className='text-4xl font-bold text-[#C9A14A] px-[116px]  max-w-lg'>D’s Coffee House</h1> 
+      <h1 className='text-4xl font-bold text-[#C9A14A] px-[116px]  max-w-lg'>D’s Coffee</h1> 
       <nav className='flex text-center '>
         <ul className='pr-[36px] pl-[107px]   '> 
            <li className='text-[#BBB3B3]'>Main</li>  

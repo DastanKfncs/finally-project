@@ -7,7 +7,7 @@ const Header = () => {
     <header className="bg-[#121517] text-white  flex   ">
       <div className="px-[130px] flex">
         <h1 className="text-4xl ml-4 text-[#C9A14A] py-[40px] font-bold">
-        D’s Coffee House
+        D’s Coffee
         </h1>
         <nav className="flex py-[48px]  px-[93.49px] ">
           <ul className="flex space-x-4">

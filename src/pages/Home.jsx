@@ -17,11 +17,11 @@ const Home = () => {
         <div className="py-[105px] max-w-lg ">
           <h1 className="text-7xl font-bold ">Новое Кафе</h1>
           <span className="text-[#C9A14A] text-7xl font-bold">
-            D’s Coffee House
+            D’s Coffee 
           </span>
           <div className="py-[54px]">
             <p className="">Успейте купить самые горячие напитки в </p>
-            <span>новой кафе D’s Coffee House и не забудьте про скидку!</span>
+            <span>новой кафе D’s Coffee и не забудьте про скидку!</span>
           </div>
           <div className="rounded-full flex justify-between py-[54px]">
             <Button
@@ -42,7 +42,7 @@ const Home = () => {
               className="w-[122px]  h-[52px] "
               onClick={() =>
                 window.open(
-                  "https://about.starbucks.com/backtostarbucks/?utm_source=stripe&utm_medium=homepage&utm_campaign=backtostarbucks"
+                  "https://www.instagram.com/ds_coffee_official/"
                 )
               }
             >
@@ -169,7 +169,7 @@ const Home = () => {
                 borderRadius: "82px",
               }}
               className="text-2xl "
-              onClick={() => window.open("https://youtu.be/o86p0cKwjUw")}
+              onClick={() => window.open("https://youtube.com/shorts/R3GPQek5L3c?si=vy4FGfK46nhLzPJm")}
             >
               <img src={Poligon1} alt="" className="block mx-4" />
               Процесс приготовления
@@ -190,7 +190,7 @@ const Home = () => {
             </div>
             <p className="flex flex-col py-[52px] font-bold text-2xl">
               <span>Успейте купить самые горячие </span>
-              <span>напитки в новый кофе D’s Coffee House и </span>
+              <span>напитки в новый кофе D’s Coffee и </span>
               <span>не забудьте про скидку!</span>
             </p>
           </div>
